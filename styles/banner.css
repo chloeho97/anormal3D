@@ -43,7 +43,7 @@
 
 /*pour animation, changer un statut, changer une propriété au bouton = hover -> survoler*/
 .btn-white:hover {
-	background-color : pink;
+	background-color: pink;
 	color: white;
 	transition: 1s;
 }
