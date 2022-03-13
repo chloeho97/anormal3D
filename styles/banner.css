@@ -15,9 +15,6 @@
 	font-size:xx-large;
 }
 
-	/*margin-left:900px;*/
-	/*margin-right:150px;*/
-
 .btn-white {
 	color: black ;
 	text-align: center;
@@ -35,8 +32,6 @@
 	width: 20%;
 }
 
-	/*margin-left:945px;
-*/
 
 /*pour animation, changer un statut, changer une propriété au bouton = hover -> survoler*/
 .btn-white:hover {
