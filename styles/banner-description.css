@@ -6,6 +6,11 @@
 	padding-bottom:0;
 }
 
+.description {
+	padding-left:5%;
+	padding-right:5%;
+}
+
 .list-articles {
 	font-size: medium;
 	padding-left:5%;
@@ -13,6 +18,11 @@
 
 .list-articles li:hover {
 	text-decoration: underline;
+}
+
+
+.titre-coordonnees {
+	padding-left:10%;
 }
 
 .list-coordonnees {
@@ -41,12 +51,5 @@
 }
 
 
-.description {
-	padding-left:5%;
-	padding-right:5%;
-}
 
-.titre-coordonnees {
-	padding-left:10%;
-}
 
