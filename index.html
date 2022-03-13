@@ -3,10 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<title>Document</title>
 	<link rel="stylesheet" href="styles/style.css">
 	<script src="https://kit.fontawesome.com/0c6458865f.js" crossorigin="anonymous"></script>
+
+	<meta name="description" content="Animation, modélisation & impression 3D.">
+	<meta property="og:title" content="Anormal 3D">
+	<meta property="og:image" content="images/logo-anormal.png">
+	<meta property="og:description" content="Anormal 3D, l'agence 360 qui donne vie à vos projets">
+	<meta property="og:site_name" content="Anormal3D"/>
 </head>
+
 <body>
 
 <br>
@@ -14,24 +22,25 @@
 <br>
 <br>
 
-<div class="menu">
-	 <div class="menu-gauche">
+	<!-- menu -->
+<div class="list-menu">
+	 <div class="list-menu-gauche">
 		<ul>
-			<li class="menu-accueil"> ACCUEIL </li>
-			<li class="menu-qui-sommes-nous"> QUI SOMMES-NOUS </li>
-			<li class="menu-services"> SERVICES </li>
+			<li> ACCUEIL </li>
+			<li> QUI SOMMES-NOUS </li>
+			<li> SERVICES </li>
 		</ul> 
 	</div>
 
-	<div class="logo-menu">
-		<img src="images/logo-anormal.png" alt="logo" id="logo" />
+	<div>
+		<img src="images/logo-anormal.png" alt="logo" id="logo-menu" />
 	</div>
 
-	<div class="menu-droite">
+	<div class="list-menu-droite">
 		<ul>
-			<li class="menu-projet"> PROJETS </li>
-			<li class="menu-blog"> BLOG </li>
-			<li class="menu-contacts"> CONTACTS </li>
+			<li> PROJETS </li>
+			<li> BLOG </li>
+			<li> CONTACTS </li>
 		</ul> 
 	</div>
 </div>
@@ -49,7 +58,7 @@
 <br>
 <br>
 <br>
-		<h1 class="banner" id="banner-1"> Animation, modélisation & impression 3D </h1>
+		<h1 class="banner-titre"> Animation, modélisation & impression 3D </h1>
 		<br>
 		<br>
 		<a href="#" class="btn-white">Un projet ? Contactez-nous </a>
@@ -80,7 +89,9 @@
 <br>
 <br>
 
-	<div class="projets">
+	<!-- projets -->
+
+	<div id="projets">
 		<img src="images/projet1.jpg" alt="projet de modélisation 1">
 		<img src="images/projet2.jpg" alt="projet de modélisation 2">
 		<img src="images/projet3.jpg" alt="projet de modélisation 3">
@@ -89,10 +100,11 @@
 
 <br>
 
+	<!-- partenaires -->
 
-<h2 id="partenaires-id">ILS NOUS ONT FAIT CONFIANCE</h2>
+<h2 id="partenaires">ILS NOUS ONT FAIT CONFIANCE</h2>
 <br>
-<div class="partenaires">
+<div class="partenaires-logo">
 		<img src="images/ubisoft.png" alt="partenaire Ubisoft">
 		<img src="images/nestle.png" alt="partenaire Nestlé">
 		<img src="images/loreal.png" alt="partenaire L'Oréal">
@@ -103,6 +115,9 @@
 <br>
 <br>
 <br>
+
+
+	<!-- formulaire de contact -->
 
 <div id="contactez-nous">
 		<H2>CONTACTEZ-NOUS</H2>
@@ -131,15 +146,19 @@
 </div>
 
 
+	<!-- partenaires -->
 <div class="ad-banner"> 
 	<div> 
 		<h3 class="description"> ARTICLES RECENTS </h3>
-			<ul class="articles-ad-banner">
-				<li id="article1"> Quel avenir pour l'impression 3D ? </li>	
-				<li id="article2"> La modélisation 3D pour les marques : 5 avantages pour la conception de vos projets </li>	
-				<li id="article3"> Impression 3D pour les marques : un tournant pour la communication ?  </li>	
-				<li id="article4"> Animation 3D : un métier d'avenir</li>	
+			<ul class="list-articles">
+				<li> Quel avenir pour l'impression 3D ? </li>	
+				<li> La modélisation 3D pour les marques : 5 avantages pour la conception de vos projets </li>	
+				<li> Impression 3D pour les marques : un tournant pour la communication ?  </li>	
+				<li> Animation 3D : un métier d'avenir</li>	
 			</ul>
+
+
+	<!-- avant-dernière banner -->
 
 <br>
 <br>
@@ -152,17 +171,20 @@
 			</p>
 	</div>
 	<div class="coordonnees"> 
-		<h3> NOS COORDONNEES </h3>
-			<p class="text-ad-banner"> 40 Av. des Terroirs de France,75012 PARIS</p>	
-			<p class="text-ad-banner"> FRANCE</p>	
-			<p class="text-ad-banner">📞 +33711890087</p>
-			<p class="text-ad-banner">📧 contact@anormal.fr </p>
+		<h3 class="titre-coordonnees"> NOS COORDONNEES </h3>
+		<ul class="list-coordonnees">
+			<li> 40 Av. des Terroirs de France,75012 PARIS</li>	
+			<li> FRANCE</li>	
+			<li>📞 +33711890087</li>
+			<li>📧 contact@anormal.fr </li>
+		</ul>
 
-		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10505.4896777713!2d2.3890695!3d48.8320346!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdd55967c7aabdb62!2sKedge%20Business%20School%20-%20Campus%20Paris!5e0!3m2!1sfr!2sfr!4v1647000752450!5m2!1sfr!2sfr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" class="map-responsive"></iframe>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10505.4896777713!2d2.3890695!3d48.8320346!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdd55967c7aabdb62!2sKedge%20Business%20School%20-%20Campus%20Paris!5e0!3m2!1sfr!2sfr!4v1647194867935!5m2!1sfr!2sfr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 	</div>
 </div>
 
 
+	<!-- foot page -->
 
 
  <div class="end-banner">
@@ -176,7 +198,7 @@
 		</div>
 
 		<div>
-			<ul class="icon-banner">
+			<ul class="icon-end-bandeau">
 				<li>
 					<a href="http://facebook.com"> <i class="fa-brands fa-facebook-square"></i> 
 					</a>
@@ -191,6 +213,7 @@
 				</li>	
 			</ul>
 		</div>
+</div>
 
 
 </body>

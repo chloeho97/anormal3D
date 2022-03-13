@@ -1,4 +1,4 @@
-.menu {
+.list-menu {
 	display:flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -19,7 +19,7 @@
 
 
 
-.menu-gauche {
+.list-menu-gauche {
 	padding: 0;
 	list-style: none;
 	margin:0px;
@@ -30,28 +30,19 @@
 	margin-top:30px;
 }
 
-.menu-gauche li {
+.list-menu-gauche li {
 	display:inline;
 	margin: 0 16px;}
 
 
-.menu-accueil:hover {
+.list-menu-gauche li:hover {
 	font-size:larger;
-	transition: 1s;
-}
-
-.menu-qui-sommes-nous:hover {
-	font-size:larger;
-	transition: 1s;
-}
-
-.menu-services:hover {
-	font-size:larger;
-	transition: 1s;
-}
+	transition: 1s;}
 
 
-.menu-droite {
+
+
+.list-menu-droite {
 	padding: 0;
 	list-style: none;
 	margin:0;
@@ -63,31 +54,20 @@
 	margin-top:30px;;
 }
 
-.menu-droite li {
+.list-menu-droite li {
 	display:inline;
 	margin: 0 16px;
 }
 
 
-
-.menu-projet:hover {
+.list-menu-droite li:hover {
 	font-size:larger;
-	transition: 1s;
-}
+	transition: 1s;}
 
-.menu-blog:hover {
-	font-size:larger;
-	transition: 1s;
-}
-
-.menu-contacts:hover {
-	font-size:larger;
-	transition: 1s;
-}
 
 		
 
-#logo {
+#logo-menu {
 	width: 80px;
 	height:90px;
 	margin-top:10px;

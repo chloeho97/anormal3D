@@ -6,23 +6,24 @@
 	padding-bottom:0;
 }
 
-.articles-ad-banner {
+.list-articles {
 	font-size: medium;
+	padding-left:5%;
 }
 
-#article1:hover {
+.list-articles li:hover{
 	text-decoration: underline;
 }
 
-#article2:hover {
-	text-decoration: underline;
-}
-#article3:hover {
-	text-decoration: underline;
-}
-#article4:hover {
-	text-decoration: underline;
-}
+.list-coordonnees{
+	list-style:none;
+	}
+
+.list-coordonnees li{
+	margin-bottom:20px;
+	padding:0;
+	}
+
 
 
 .map-responsive {
@@ -42,11 +43,11 @@
 
 
 .description{
-	padding-left:40px;
-	padding-right:40px;
+	padding-left:5%;
+	padding-right:5%;
 }
 
-
-.coordonnees{
-	padding-right : 15px;
+.titre-coordonnees {
+	padding-left:10%;
 }
+
