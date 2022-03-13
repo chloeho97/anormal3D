@@ -1,4 +1,4 @@
-.end-banner {
+.foot-banner {
 	background-color:grey;
 	color:white;
 	padding: 0;
@@ -12,7 +12,7 @@
 	margin-top:20px;
 }
 
-.end-banner li {
+.foot-banner li {
 	display:inline;
 	margin: 0 16px;
 }
