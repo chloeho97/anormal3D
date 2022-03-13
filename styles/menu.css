@@ -32,12 +32,14 @@
 
 .list-menu-gauche li {
 	display:inline;
-	margin: 0 16px;}
+	margin: 0 16px;
+}
 
 
 .list-menu-gauche li:hover {
 	font-size:larger;
-	transition: 1s;}
+	transition: 1s;
+}
 
 
 
@@ -51,7 +53,7 @@
 	display:flex;
 	justify-content: flex-end;
 	text-decoration: none;
-	margin-top:30px;;
+	margin-top:30px;
 }
 
 .list-menu-droite li {
@@ -62,11 +64,11 @@
 
 .list-menu-droite li:hover {
 	font-size:larger;
-	transition: 1s;}
+	transition: 1s;
+}
 
 
-		
-
+	
 #logo-menu {
 	width: 80px;
 	height:90px;

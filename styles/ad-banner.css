@@ -11,19 +11,18 @@
 	padding-left:5%;
 }
 
-.list-articles li:hover{
+.list-articles li:hover {
 	text-decoration: underline;
 }
 
-.list-coordonnees{
+.list-coordonnees {
 	list-style:none;
 	}
 
-.list-coordonnees li{
+.list-coordonnees li {
 	margin-bottom:20px;
 	padding:0;
 	}
-
 
 
 .map-responsive {
@@ -42,7 +41,7 @@
 }
 
 
-.description{
+.description {
 	padding-left:5%;
 	padding-right:5%;
 }

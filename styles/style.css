@@ -7,15 +7,16 @@
 
 @import url("services.css");
 
+@import url("projets.css");
+
+@import url("partenaires.css");
+
 @import url("contactez-nous.css");
 
 @import url("ad-banner.css");
 
 @import url("end-bandeau.css");
 
-@import url("partenaires.css");
-
-@import url("projets.css");
 
 
 a	{
