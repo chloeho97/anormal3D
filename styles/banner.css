@@ -33,8 +33,10 @@
 	border : 1px solid pink;
 	transition:1s;
 	width: 20%;
+}
+
 	/*margin-left:945px;
-*/}
+*/
 
 /*pour animation, changer un statut, changer une propriété au bouton = hover -> survoler*/
 .btn-white:hover {
