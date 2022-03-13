@@ -1,7 +1,7 @@
 .banner-description {
 	display:flex;
-	flex-direction: row;
-	justify-content: space-around;
+	flex-direction:row;
+	justify-content:space-around;
 	margin-bottom:0;
 	padding-bottom:0;
 }
@@ -12,12 +12,12 @@
 }
 
 .list-articles {
-	font-size: medium;
+	font-size:medium;
 	padding-left:5%;
 }
 
 .list-articles li:hover {
-	text-decoration: underline;
+	text-decoration:underline;
 }
 
 
